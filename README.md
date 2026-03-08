@@ -1,6 +1,8 @@
 # Schulpulse Context Engineering
 
-## Overview (3–4 sentences: what is SchulPulse, who does it serve, what problem does it solve)
+## Overview 
+In Kenyan private primary and secondary schools, parent-teacher communication gaps—exacerbated by parents' limited understanding of the Competency-Based Curriculum (CBC), manual messaging overload, missed announcements, and inaccessible updates—lead to low parent engagement, student indiscipline, and declining academic achievement. School admins waste hours on calls and chases, while parents struggle with shift conflicts, data issues, and school operational changes. SchlPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automated pushes of announcements, schedules, report cards, alerts, and FAQ answers—streamlining communication between parents and teachers/school administrators
+
 ## Context Engineering Approach (brief: what layers you designed and why)
 ## Tech Stack (Claude API | Make.com | Google Sheets | WhatsApp via ManyChat)
 ## Repo Structure (link to each folder with one-line description)
