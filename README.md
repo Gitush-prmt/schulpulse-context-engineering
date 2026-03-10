@@ -14,7 +14,7 @@ In Kenyan private primary and secondary schools, parent-teacher communication ga
 ## Outcomes / Results (quantitative if possible: e.g. 80% reduction in manual messages)
 
 ## About the Author (your background, link to LinkedIn)
-My name is Gituru Mwai
+My name is Gituru Mwai, a UI designer with 10 years experienceand AI Product Engineer
 ## Licence
 
 This repository was connected dynamically via an auto-sync PowerShell script.
