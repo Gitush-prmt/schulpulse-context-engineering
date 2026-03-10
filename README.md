@@ -12,6 +12,11 @@ CONSTRAINTS: [Clear boundaries and rules]
 OUTPUT: [Specific format requirements]
 
 ### User context
+KEY INFORMATION: [don't rely on what was said 20 messages ago]
+TASK: [What exactly you want done]
+CONTEXT: [Essential background info]
+CONSTRAINTS: [Clear boundaries and rules]
+
 ### Conversation/Session History
 ### Dynamic information   
 
