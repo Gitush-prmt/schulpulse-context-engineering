@@ -4,6 +4,16 @@
 In Kenyan private primary and secondary schools, parent-teacher communication gaps — exacerbated by parents' limited understanding of the Competency-Based Curriculum (CBC), manual messaging overload, missed announcements, and inaccessible updates — lead to low parent engagement, student indiscipline, and declining academic achievements. School admins and teachers waste hours on calls and chases, while parents struggle with work conflicts, data issues, and school operational changes. SchulPulse, an AI-powered WhatsApp bot, addresses this by enabling 24/7 automated pushes of announcements, schedules, report cards, alerts, and FAQ answers — streamlining communication between parents and teachers/school administrators.
 
 ## Context Engineering Approach (brief: what layers you designed and why)
+### System instructions 
+ROLE: [Who the AI should be]
+TASK: [What exactly you want done]
+CONTEXT: [Essential background info]
+CONSTRAINTS: [Clear boundaries and rules]
+OUTPUT: [Specific format requirements]
+
+### User context
+### Conversation/Session History
+### Dynamic information   
 
 ## Tech Stack (Claude API | Make.com | Google Sheets | WhatsApp via ManyChat)
 
