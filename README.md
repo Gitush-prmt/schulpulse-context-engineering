@@ -18,7 +18,14 @@ CONTEXT: [Essential background info]
 CONSTRAINTS: [Clear boundaries and rules]
 
 ### Conversation/Session History
+
 ### Dynamic information   
+
+
+
+
+
+
 
 ## Tech Stack (Claude API | Make.com | Google Sheets | WhatsApp via ManyChat)
 
