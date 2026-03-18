@@ -12,11 +12,11 @@ The system prompt establishes:
 3. SchulPulse's hard constraints -
 4. SchulPulse's oparational directives -
 ### Dynamic context layer
-At SchulPulse runtime, the student's record is retrieved from Google Sheets via Make.com and injected as a structured plain-text block as a reply to the user message. Plain text was chosen over JSON to reduce token consumption and improve model reliability on field extraction
+At SchulPulse runtime, the student's record is retrieved from Google Sheets via Make.com and injected as a structured plain-text block as a reply to the user message. Plain text was chosen over JSON to reduce token consumption and improve model reliability on field extraction in a a natural, dialogue-like interaction
 ### Session History/memory layer
 The last four exchanges of the WhatsApp conversation are included in each API call to maintain continuity without exceeding the token budget allocated to this layer. Older exchanges are dropped rather than summarised, as parent queries are typically resolved within two or three exchanges
 ### Output/Response context layer
-Output instructions limit responses to approximately 100–150 words and prohibit markdown formatting, as WhatsApp renders asterisks and pound signs as literal characters. Responses must end with a clear next step or question to keep the conversation moving toward resolution
+Output instructions limit responses to approximately 80-100 words and prohibit markdown formatting, as WhatsApp renders asterisks and pound signs as literal characters. Responses must end with a clear next step or question to keep the conversation moving toward resolution
 
 This layered architecture separates stable identity rules (system prompt) from dynamic runtime data (retrieval), enabling the system to serve multiple schools from a single Claude API integration by simply swapping the retrieved data context.
 
