@@ -21,7 +21,20 @@ Output instructions limit responses to approximately 80-100 words and prohibit m
 This layered architecture separates stable identity rules (system prompt) from dynamic runtime data (retrieval), enabling the system to serve multiple schools from a single Claude API integration by simply swapping the retrieved data context.
 
 
-## Tech Stack (Claude API | Make.com | Google Sheets | WhatsApp via ManyChat)
+## Tech Stack 
+
+| Tool | Role | Why Chosen |
+| :--- | :--- | :--- |
+| Notion | Documenting creation journey | Free to use/Great for documenting workflow |
+| Claude AI | Smart auto-replies to parent FAQs | API to handle NLP |
+| Make.com | Automation glue between tools | Automate workflows, tasks |
+| ManyChat | WhatsApp bot, automations, broadcasts | Automate interactions on WhatsApp |
+| Github | Documenting  | Free to use/Great for documenting workflow |
+| Google Sheets | Parent database + message log | Free to use |
+| WhatsApp | Message core | Most common messaging platform |
+| Google AI Studio | Testing user prompt effectiveness | Fast and affordable testing environment |
+| Google Forms | Parent opt-in + admin input form | Free to use |
+| Framer | SchulPulse landing page | Free to use |
 
 ## Repo Structure (link to each folder with one-line description)
 
